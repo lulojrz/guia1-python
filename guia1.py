@@ -25,7 +25,7 @@ def imprimir_saludo(nombre)->str:
   
 
 def raiz_cuadrada(num:int)->str:
-  print("la raiz cuadrada de " , num , "es :" , math.sqrt(num))
+  return  math.sqrt(num)
 
 def  fahrenheit_a_celsius (temp:int)->str :
   print("la temperatura convertida de fahrenheit a celsius es :" ,
